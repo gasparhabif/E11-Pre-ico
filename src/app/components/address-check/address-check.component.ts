@@ -6,4 +6,12 @@ import { Component} from '@angular/core';
   styleUrls: ['./address-check.component.scss']
 })
 
-export class AddressCheckComponent{ }
+export class AddressCheckComponent {
+  checkLoading: boolean = false;
+
+  check(): void{
+      this.checkLoading = true;
+      
+  }
+
+}
