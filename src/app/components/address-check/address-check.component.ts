@@ -6,7 +6,4 @@ import { Component} from '@angular/core';
   styleUrls: ['./address-check.component.scss']
 })
 
-export class AddressCheckComponent{
-
-
-}
+export class AddressCheckComponent{ }
