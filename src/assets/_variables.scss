@@ -1,0 +1,16 @@
+$colors: (
+  logo: (
+    shadow:     #3A666C,
+    background: #567D82,
+    bottom:     #1F5158,
+    top:        #BEE8D1,
+    left:       #69F9B6,
+    right:      #8DC5A8
+  ),
+  twitter: (
+    base: #55acee,
+    contrast: #ffffff
+  )
+);
+
+//color: color($colors, logo, shadow);

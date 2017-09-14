@@ -11,7 +11,7 @@ export class AddressCheckComponent {
 
   check(): void{
       this.checkLoading = true;
-      
+      //After check this.checkLoading = false;
   }
 
 }
