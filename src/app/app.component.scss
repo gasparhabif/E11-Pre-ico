@@ -1,14 +1,20 @@
 h1 {
-  font-size: 6em;
+  font-size: 6rem;
   color: #fff;
   font-weight: 300;
   font-family: "Open Sans";
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-.cotainer{
+.container{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .item{
-  
+
+}
+#logo{
+  height: 30rem;
+  margin-bottom: 5rem;  //Must this be 'rem' or 'px'?
 }
