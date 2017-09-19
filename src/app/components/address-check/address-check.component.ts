@@ -9,9 +9,8 @@ import { Component} from '@angular/core';
 export class AddressCheckComponent {
   checkLoading: boolean = false;
 
-  check(): void{
+  check(): void {
       this.checkLoading = true;
       //After check this.checkLoading = false;
   }
-
 }

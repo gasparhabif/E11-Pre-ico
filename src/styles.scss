@@ -3,6 +3,10 @@ html{
   font-size:62.5%;
   text-size-adjust: 100%;
 }
+/* We tell all items to be 100% width */
 *{
   box-sizing: border-box;
+}
+.flex{
+  display: flex;
 }
