@@ -5,16 +5,22 @@ h1 {
   font-family: "Open Sans";
   margin-bottom: 10px;
 }
-.container{
+.main-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.container {
+  width: 65rem;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-.item{
 
 }
-#logo{
-  height: 100%;
+#logo {
+  width: 30rem;
   margin-bottom: 5rem;  //Must this be 'rem' or 'px'?
 }

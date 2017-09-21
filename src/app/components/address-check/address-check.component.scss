@@ -1,13 +1,18 @@
 //CUSTOM IMPORT
 @import "../../../assets/_variables.scss";
 
-#text-box{
-  width:      56rem;
+:host {
+  width: 100%;
+}
+#text-box {
   height:     5rem;
   font-size:  2.5rem;
+  flex: 1;
 }
-#search-component{
+#search-component {
   height: 5rem;
+  width: 100%;
+  display: flex;
 }
 .icon{
   &.refresh {

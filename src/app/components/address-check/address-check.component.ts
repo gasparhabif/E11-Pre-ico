@@ -1,4 +1,4 @@
-import { Component} from '@angular/core';
+import { Component, Output, EventEmitter }     from '@angular/core';
 
 @Component({
   selector: 'address-check',
@@ -8,9 +8,13 @@ import { Component} from '@angular/core';
 
 export class AddressCheckComponent {
   checkLoading: boolean = false;
+  @Output() open: EventEmitter <any> = new EventEmitter();
+  @Output() close: EventEmitter <any> = new EventEmitter();
 
   check(): void {
       this.checkLoading = true;
-      //After check this.checkLoading = false;
+
+      //After check this.checkLoading = false
+
   }
 }
